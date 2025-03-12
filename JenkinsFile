@@ -4,7 +4,7 @@ pipeline{
     stage("Build")  {
       steps{
         sh "g++ main.cpp -o output"
-        build "PES1UG22AM183-1"
+        build "PES1UG22AM138-1"
       }
     }
     stage("Test")  {
